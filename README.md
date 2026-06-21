@@ -70,11 +70,14 @@ As of the most recent version:
 - Fixed a session.lock bug on OS's with aggressive CPU Schedulers.
 - Fixed a crash when placing a Sign on a Cactus.
 - Fixed torch placement when snow and a ledge are present.
+- Fixed Mob Spawn Behavior.
+- Fixed Slime Chunk generation.
 - Removed Herobrine.
 
 ## Installation
 
 Download the latest release ***[here](https://github.com/Anomalous55/Alpha-QoL/releases)***.
+Or on ***[Modrinth](https://modrinth.com/mod/alpha-qol)***.
 
 ### Method 1 (MultiMC/Prism)
 
