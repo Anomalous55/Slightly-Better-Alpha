@@ -46,7 +46,16 @@ h1 {
     margin-top: 40px !important;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
+    font-family: 'Minecraft', monospace !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    text-shadow: 2px 2px 0px #000000 !important; 
+    border-bottom: none !important; 
+    margin-top: 40px !important;
+}
+
+h3, h4, h5, h6 {
     font-family: 'Minecraft', monospace !important;
     color: #ffffff !important;
     text-align: left !important;
