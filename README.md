@@ -33,10 +33,21 @@ This project aims to provide **minimal improvement**, focused strictly on small 
 As of the most recent version:
 
 ### Additions
-- Added XYZ Coordinates, World Seed, and a Day Counter to F3 Menu.
+- Added XYZ and F Coordinates, World Seed, and a Day Counter to F3 Menu.
 - Added an FPS Limiter slider to the options menu to set max framerate more accurately (Replaces the 'Limit FPS' option).
 - Added the Inventory Shift-Clicking tweaks you are familiar with in modern versions.
 - Added a secret method you may be familiar with from Beta to prevent farmland from being trampled.
+- Added F1 HUD Visibility Toggle.
+- Added Screenshots with F2.
+- Added a front-facing third person camera angle.
+- Added a new video settings submenu to hold the new graphical options.
+- Added an FOV Slider.
+- Added a GUI Scale Button.
+- Added a V-Sync button.
+- Added a Fullscreen Toggle.
+- Added a "Quit Game" Button to the main menu..
+- Added the ability to toggle the new unobtrusive snow texture.
+- Added the ability to toggle the "Minecraft Alpha 1.1.2_01" Version Overlay.
 
 ### Tweaks
 - You can now use text chat in Singleplayer Worlds.
@@ -54,9 +65,13 @@ As of the most recent version:
 - Falling Snow in Winter Mode worlds now has a less obtrusive texture.
 - Made the UI a little bit snappier (by fixing a bug where player inputs were skipped).
 - Music now plays more often (Music is still semi-random with intervals of about 10-15 minutes instead of 20-25 minutes).
+- Furnaces will now drop their contents when broken.
+- Furnaces will not consume the bucket when lava is used as fuel.
+- Throttled Chunk Updates when new chunks are not being rendered to prevent the main thread from overloading
+- Replaced the lookup table used to calculate certain values with Java's built-in mathematical functions, as it is now faster for modern CPUs to calculate them than to look them up.
+- Slightly tweaked ore generation as I believe it was still biased in the previous versions after my "fix".
 
 ### Bug Fixes
-- Fixed a major bug where world NBT Data resets upon rejoining a world.
 - Fixed the Leaf Decay Bug.
 - Fixed a bug where pressing a movement key and the Inventory key at the same time would cause you to move until the 'ESC' key is pressed.
 - Fixed a bug where liquids would be placed when interacting with a block.
@@ -72,6 +87,8 @@ As of the most recent version:
 - Fixed torch placement when snow and a ledge are present.
 - Fixed Mob Spawn Behavior.
 - Fixed Slime Chunk generation.
+- Fixed a rare bug where world NBT Data resets upon rejoining a world.
+- Fixed a rare bug that caused infinite chunk generation recursion when creating a new world.
 - Removed Herobrine.
 
 ## Installation
