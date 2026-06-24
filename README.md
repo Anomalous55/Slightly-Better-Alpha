@@ -45,7 +45,7 @@ As of the most recent version:
 - Added a GUI Scale Button.
 - Added a V-Sync button.
 - Added a Fullscreen Toggle.
-- Added a "Quit Game" Button to the main menu..
+- Added a "Quit Game" Button to the main menu.
 - Added the ability to toggle the appearance of falling snow to a more unobtrusive texture.
 - Added the ability to toggle the "Minecraft Alpha 1.1.2_01" Version Overlay.
 
