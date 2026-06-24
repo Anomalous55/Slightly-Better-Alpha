@@ -46,7 +46,7 @@ As of the most recent version:
 - Added a V-Sync button.
 - Added a Fullscreen Toggle.
 - Added a "Quit Game" Button to the main menu..
-- Added the ability to toggle the new unobtrusive snow texture.
+- Added the ability to toggle the appearance of falling snow to a more unobtrusive texture.
 - Added the ability to toggle the "Minecraft Alpha 1.1.2_01" Version Overlay.
 
 ### Tweaks
@@ -62,7 +62,6 @@ As of the most recent version:
 - Saddled Pigs will now drop their saddle when killed.
 - Double slabs now drop both slabs when broken.
 - Pressure Plates, Bookshelves, and Stairs now properly drop themselves when broken.
-- Falling Snow in Winter Mode worlds now has a less obtrusive texture.
 - Made the UI a little bit snappier (by fixing a bug where player inputs were skipped).
 - Music now plays more often (Music is still semi-random with intervals of about 10-15 minutes instead of 20-25 minutes).
 - Furnaces will now drop their contents when broken.
@@ -94,6 +93,7 @@ As of the most recent version:
 ## Installation
 
 Download the latest release ***[here](https://github.com/Anomalous55/Alpha-QoL/releases)***.
+
 Or on ***[Modrinth](https://modrinth.com/mod/alpha-qol)***.
 
 ### Method 1 (MultiMC/Prism)
@@ -106,6 +106,6 @@ Or on ***[Modrinth](https://modrinth.com/mod/alpha-qol)***.
 ### Method 2 (Self Patch)
 
 - Open your version.jar file using an archive editor. 
-- Delete META-INF then add the mod files from the zip file into it, overwriting existing files when prompted.
+- Delete 'META-INF' then add the mod files from the zip file into it, overwriting existing files when prompted.
 
 Launch the game and enjoy!
