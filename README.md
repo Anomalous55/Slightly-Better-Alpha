@@ -47,7 +47,7 @@ As of the most recent version:
 
 ### Tweaks
 - You can now use text chat in Singleplayer Worlds.
-- The game will now use your Minecraft Skin.
+- The game will now use your Minecraft Skin, including those of you with Slim Skins.
 - You can now swap items of the same kind in the inventory.
 - You can no longer accidentally eat food while your health is full.
 - Cacti will no longer destroy dropped Cactus items.
@@ -77,6 +77,7 @@ As of the most recent version:
 - Fixed a bug where liquids would be placed when interacting with a block.
 - Fixed a bug where instantly breakable blocks would be broken open returning to game from pause menu.
 - Fixed a bug where your footsteps all play at once after sneaking.
+- Fixed a bug where mob shadows would render in a grid after disabling the 3D Anaglyph Setting.
 - Fixed the hitbox of stairs.
 - Fixed a session.lock bug on OS's with aggressive CPU Schedulers.
 - Fixed a crash when placing a Sign on a Cactus.
