@@ -46,8 +46,8 @@ As of the most recent version:
 - Added the ability to toggle the "Minecraft Alpha 1.1.2_01" Version Overlay.
 
 ### Tweaks
-- You can now use text chat in Singleplayer Worlds.
 - The game will now use your Minecraft Skin, including those of you with Slim Skins.
+- You can now use text chat in Singleplayer Worlds.
 - You can now swap items of the same kind in the inventory.
 - You can no longer accidentally eat food while your health is full.
 - Cacti will no longer destroy dropped Cactus items.
