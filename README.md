@@ -88,9 +88,9 @@ As of the most recent version:
 
 ## Installation
 
-Download the latest release ***[here](https://github.com/Anomalous55/Alpha-QoL/releases)***.
+Download the latest release on ***[Modrinth](https://modrinth.com/mod/alpha-qol)***. 
 
-Or on ***[Modrinth](https://modrinth.com/mod/alpha-qol)***.
+Or alternatively on ***[this repository](https://github.com/Anomalous55/Alpha-QoL/releases)***.
 
 ### Method 1 (MultiMC/Prism)
 
