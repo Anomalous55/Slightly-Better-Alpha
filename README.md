@@ -47,6 +47,7 @@ As of the most recent version:
 
 ### Tweaks
 - The game will now use your Minecraft Skin, including those of you with Slim Skins.
+- The world height limit has been raised to 256.
 - You can now use text chat in Singleplayer Worlds.
 - You can now swap items of the same kind in the inventory.
 - You can no longer accidentally eat food while your health is full.
@@ -62,6 +63,7 @@ As of the most recent version:
 - Music now plays more often (Music is still semi-random with intervals of about 10-15 minutes instead of 20-25 minutes).
 - Furnaces will now drop their contents when broken.
 - Furnaces will not consume the bucket when lava is used as fuel.
+- TNT Explosions now drop more blocks.
 - Throttled Chunk Updates when new chunks are not being rendered to prevent the main thread from overloading
 - Replaced the lookup table used to calculate certain values with Java's built-in mathematical functions, as it is now faster for modern CPUs to calculate them than to look them up.
 
