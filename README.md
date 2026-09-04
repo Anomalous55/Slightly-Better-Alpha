@@ -31,7 +31,7 @@ As of the most recent version:
 ### Additions
 - Added XYZ and F Coordinates, World Seed, and a Day Counter to F3 Menu.
 - Added an FPS Limiter slider to the options menu to set max framerate more accurately (Replaces the 'Limit FPS' option).
-- Added the Inventory Shift-Clicking tweaks you are familiar with in modern versions.
+- Added the Inventory Shift-Clicking/Numkey tweaks you are familiar with in modern versions.
 - Added a secret method you may be familiar with from Beta to prevent farmland from being trampled.
 - Added F1 HUD Visibility Toggle.
 - Added Screenshots with F2.
@@ -44,6 +44,9 @@ As of the most recent version:
 - Added a "Quit Game" Button to the main menu.
 - Added the ability to toggle the appearance of falling snow to a more unobtrusive texture.
 - Added the ability to toggle the "Minecraft Alpha 1.1.2_01" Version Overlay.
+- Added Item Tooltips.
+- Added F3+G Chunk Border Viewing Toggle.
+- Added F3+B Entity Hitbox/Viewpath Viewing Toggle.
 
 ### Tweaks
 - The game will now use your Minecraft Skin, including those of you with Slim Skins.
@@ -55,8 +58,10 @@ As of the most recent version:
 - Doubled the durability of all tools and armor.
 - Stack sizes of Wooden Doors, Iron Doors, and Signs have been increased to 16.
 - Pickaxes, axes, and spades now correctly break their intended blocks.
+- Buffed recipe returns for Signs, Fences, and Ladders.
 - Clay is now 10% more common.
 - Saddled Pigs will now drop their saddle when killed.
+- Chickens now have a larger, more accurate hitbox.
 - Double slabs now drop both slabs when broken.
 - Pressure Plates, Bookshelves, and Stairs now properly drop themselves when broken.
 - Made the UI a little bit snappier (by fixing a bug where player inputs were skipped).
@@ -64,8 +69,11 @@ As of the most recent version:
 - Furnaces will now drop their contents when broken.
 - Furnaces will not consume the bucket when lava is used as fuel.
 - TNT Explosions now drop more blocks.
+- Removed the deprecated 'Tutorial World' Button from the Main Menu.
 - Throttled Chunk Updates when new chunks are not being rendered to prevent the main thread from overloading
-- Replaced the lookup table used to calculate certain values with Java's built-in mathematical functions, as it is now faster for modern CPUs to calculate them than to look them up.
+- Replaced the lookup table used to calculate certain values with a smaller, more optimized version.
+- Replaced the Random function in certain algorithms with a faster version.
+- Generated Chunks are checked for caves in a more optimized circular pattern, rather than a square one.
 
 ### Bug Fixes
 - Fixed the Leaf Decay Bug.
